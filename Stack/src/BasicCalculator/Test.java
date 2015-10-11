@@ -1,0 +1,13 @@
+package BasicCalculator;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Solution s = new Solution();
+		String str = "1-(2+3-(4+(5-(1-(2+4-(5+6))))))";
+		int res = s.calculate(str);
+		System.out.println(res);
+	}
+
+}

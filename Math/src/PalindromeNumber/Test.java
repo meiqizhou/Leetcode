@@ -1,0 +1,12 @@
+package PalindromeNumber;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Solution s = new Solution();
+		long rev = s.reverseInt(722);
+		System.out.println(rev);
+	}
+
+}
